@@ -1,0 +1,9 @@
+on:
+  pull_request:
+  merge_group:
+
+jobs:
+  sleep:
+    runs-on: ubuntu-latest
+    steps:
+    - run: sleep 10
